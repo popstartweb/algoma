@@ -14,7 +14,7 @@
 
 									<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
 									
-									<h2>Poopy Head</h2>
+									<h2>Poopy Head!</h2>
 
 									<p class="byline vcard">
 										<?php printf( __( 'Posted', 'bonestheme').' <time class="updated" datetime="%1$s" itemprop="datePublished">%2$s</time> '.__( 'by',  'bonestheme').' <span class="author">%3$s</span>', get_the_time('Y-m-j'), get_the_time(get_option('date_format')), get_the_author_link( get_the_author_meta( 'ID' ) )); ?>
